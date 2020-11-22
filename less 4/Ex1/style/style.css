@@ -1,0 +1,60 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+#conteiner {
+  width: 100%;
+  height: 635px;
+}
+.this-block1,
+.this-block2,
+.this-block3,
+.this-block4,
+.this-block5,
+.this-block6,
+.this-block7 {
+  display: inline-block;
+  height: 635px;
+  width: 206px;
+  margin-right: -4px;
+  text-align: center;
+  padding-top: 270px;
+  font-size: 90px;
+  text-transform: uppercase;
+  font-family: "Libre Baskerville-Bold";
+  color: white;
+}
+.this-block1 {
+  background: #ed213a;
+  background: -webkit-linear-gradient(to top, #93291e, #ed213a);
+  background: linear-gradient(to top, #93291e, #ed213a);
+}
+.this-block2 {
+  background: #654ea3;
+  background: -webkit-linear-gradient(to bottom, #eaafc8, #654ea3);
+  background: linear-gradient(to bottom, #eaafc8, #654ea3);
+}
+.this-block4 {
+  background: #5a3f37;
+  background: -webkit-linear-gradient(to top, #2c7744, #5a3f37);
+  background: linear-gradient(to top, #2c7744, #5a3f37);
+}
+.this-block3 {
+  background: #30e8bf;
+  background: -webkit-linear-gradient(to top, #ff8235, #30e8bf);
+  background: linear-gradient(to top, #ff8235, #30e8bf);
+}
+.this-block5 {
+  background: #ef3b36;
+  background: -webkit-linear-gradient(to top, #ffffff, #ef3b36);
+  background: linear-gradient(to top, #ffffff, #ef3b36);
+}
+.this-block6 {
+  background: #ed213a;
+  background: -webkit-linear-gradient(to top, #93291e, #ed213a);
+  background: linear-gradient(to top, #93291e, #ed213a);
+}
+.this-block7 {
+  background: #603813;
+  background: -webkit-linear-gradient(to top, #b29f94, #603813);
+  background: linear-gradient(to top, #b29f94, #603813);
+}

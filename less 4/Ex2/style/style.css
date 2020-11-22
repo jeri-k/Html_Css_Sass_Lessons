@@ -1,0 +1,74 @@
+@import url(reset.css);
+@import url(font.css);
+
+header {
+  width: 100%;
+  height: 50px;
+  background: rgb(182, 180, 180);
+}
+h1 {
+  color: rgb(206, 2, 2);
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+  font-family: 'Roboto-Regular';
+}
+section {
+  float: left;
+  margin-left: 60px;
+}
+.img-top {
+  border: 6px solid silver;
+  width: 565px;
+  height: 305px;
+  margin: 50px 20px;
+  transition-duration: 1.5s;
+}
+.img-top:hover{
+    border: 6px solid red;
+    transform: skew(20deg);
+
+}
+li {
+  display: inline-block;
+}
+.mini-img {
+  margin-left: 10px;
+}
+li > img {
+  width: 123px;
+  height: 75px;
+  border: 5px solid silver;
+  margin: 5px 10px;
+  transition-duration: 1.4s;
+  cursor: pointer;
+
+}
+li>img:hover{
+    border: 5px solid red;
+    transform: scale(1.3);
+    
+}
+aside {
+  width: 480px;
+  height: 485px;
+  float: left;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+
+.title{
+    border-bottom: 5px solid red;
+    font-size: 30px;
+    font-family: 'Roboto-Light';
+}
+.text-content{
+    margin-top: 10px;
+    text-align: justify;
+    font-size:14px;
+    line-height: 1.5;
+    font-family: 'XanhMono-Regula';
+    word-spacing: 5px;
+
+}
