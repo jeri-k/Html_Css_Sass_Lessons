@@ -1,0 +1,188 @@
+@import url(./reset.css);
+@import url(./fonts.css);
+
+body {
+  font-family: "Banhij-Sultannahia";
+}
+
+#conteiner {
+  width: 1440px;
+  height: 600px;
+  background: white;
+}
+.menu {
+  width: 450px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto 0;
+}
+.nav-menu {
+  text-decoration: none;
+  font-family: "Banhij-Sultannahia";
+  font-size: 24px;
+  line-height: 33px;
+  color: black;
+  transition: 0.7s;
+}
+.nav-menu:hover {
+  color: #2785f7;
+}
+.active {
+  color: #2785f7;
+}
+.content-block {
+  width: 1050px;
+  height: 480px;
+  border-radius: 30px;
+  margin: 0 auto;
+  padding: 20px;
+  background: silver;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-block {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.block-left {
+  width: 100px;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: -10px;
+}
+
+.block-bootom {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  margin-top: 16px;
+  margin-left: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.ex-block {
+  display: flex;
+  flex-direction: column;
+}
+.ex-block-1 {
+  margin-left: 15px;
+}
+.block-top {
+  width: 900px;
+  margin-left: 10px;
+  margin-top: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blocks-1 {
+  width: 540px;
+  height: 130px;
+  background: white;
+  border-radius: 25px;
+  margin-bottom: 25px;
+  padding: 30px;
+}
+.blocks-2 {
+  width: 540px;
+  height: 130px;
+  background: white;
+  border-radius: 25px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.blocks-3 {
+  width: 320px;
+  height: 285px;
+  background: white;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.top-blocks1 {
+  width: 430px;
+  height: 90px;
+  background: white;
+  border-radius: 25px;
+  padding: 25px;
+}
+.top-blocks2 {
+  width: 430px;
+  height: 90px;
+  background: white;
+  border-radius: 25px;
+  padding: 25px;
+}
+.left-block {
+  width: 80px;
+  height: 290px;
+  background: white;
+  border-radius: 25px;
+  padding: 10px 0 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.icons {
+  width: 32px;
+  height: 32px;
+  padding: 3px;
+  border-radius: 10px;
+  transition: 0.7s;
+}
+i {
+  font-size: 25px;
+}
+.icons:hover {
+  transform: scale(1.6);
+
+  background-color: #2785f7;
+}
+.icons:hover {
+  color: white;
+}
+.block2-title {
+  color: #b1b1b1;
+  font-size: 15px;
+}
+.top-block2-text {
+  font-size: 25px;
+  font-family: "Banhij-Sultannahia";
+  letter-spacing: 1px;
+}
+.block1-text,
+.blocks2-text,
+.block3-text {
+  font-weight: 200;
+  font-size: 15px;
+
+  color: #b1b1b1;
+}
+.block1-title,
+.blocks2-title,
+.block3-title {
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+.block2-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  padding: 12px;
+}
+.color:hover {
+  background-color: red;
+}
