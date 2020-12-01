@@ -111,15 +111,16 @@ a.icons::after {
     border-bottom-right-radius: 10px;
 }
 
-a.txtP::after{
-    content:'Projeck';
+a.txtP::after {
+    content: 'Projeck';
     display: flex;
     align-items: center;
     font-size: 17px;
     opacity: 0;
     transition: 0.7s;
 }
-a.txtA::after{
+
+a.txtA::after {
     content: 'Account';
     display: flex;
     align-items: center;
@@ -130,7 +131,7 @@ a.txtA::after{
 
 }
 
-a.txtG::after{
+a.txtG::after {
     content: 'Groups';
     display: flex;
     align-items: center;
@@ -138,7 +139,8 @@ a.txtG::after{
     opacity: 0;
     transition: 0.7s;
 }
-a.txtC::after{
+
+a.txtC::after {
     content: 'Cloud';
     display: flex;
     align-items: center;
@@ -146,7 +148,8 @@ a.txtC::after{
     opacity: 0;
     transition: 0.7s;
 }
-a.txtS::after{
+
+a.txtS::after {
     content: 'Setting';
     display: flex;
     align-items: center;
@@ -173,10 +176,11 @@ a.icons:hover::after {
     color: white;
 }
 
-.active-bar  {
+.active-bar {
     background: #2785f7;
 }
-.active-bar i{
+
+.active-bar i {
     color: white;
 }
 
@@ -184,56 +188,60 @@ i {
     color: black;
     font-size: 25px;
 }
-.box-content{
+
+.box-content {
     width: 925px;
     height: 450px;
-    border: 1px solid black;
     display: flex;
-justify-content: space-between}
-.block-one{
+    justify-content: space-between
+}
+
+.block-one {
     width: 420px;
     height: 450px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
-align-items: center;
-justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
 }
-.item-top{
+
+.item-top {
     width: 405px;
     height: 100px;
-    border: 1px solid black;
     background: white;
     border-radius: 15px;
     display: flex;
     align-items: center;
 
 }
-.item-bootom{
+
+.item-bootom {
     width: 405px;
     height: 340px;
-    border: 1px solid black;
     background: white;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.block-two{
+
+.block-two {
     width: 500px;
     height: 450px;
-    border: 1px solid black;
 }
-.item-right{
+
+.item-right {
     width: 500px;
     height: 450px;
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
     background: white;
     border-radius: 15px;
 
 
 }
-.red-bg{
+
+.red-bg {
     width: 50px;
     height: 50px;
     background: red;
@@ -245,34 +253,41 @@ justify-content: space-between;
     font-family: serif;
     font-size: 25px;
     margin-left: 15px;
+    
 }
-.text-content{
+
+.text-content {
     margin-left: 15px;
 }
-h1{
+
+h1 {
     font-size: 25px;
 }
-p{
+
+p {
     font-family: 'ChronicaPro-Regular';
     font-size: 12px;
     color: #b1b1b1;
 
 }
-.title{
+
+.title {
     width: 400px;
     height: 80px;
     display: flex;
     margin-top: 20px;
 
 }
-.title-2{
+
+.title-2 {
     width: 500px;
     height: 80px;
     display: flex;
     align-items: center;
-margin-top: 15px;
+    margin-top: 15px;
 }
-.blue-bg,.orange-bg {
+
+.blue-bg, .orange-bg {
     width: 50px;
     height: 50px;
     background: #2785f7;
@@ -282,24 +297,29 @@ margin-top: 15px;
     align-items: center;
     margin-left: 15px;
 }
-.orange-bg{
+
+.orange-bg {
     background: orange;
 }
-.blue-bg i,.orange-bg i {
+
+.blue-bg i, .orange-bg i {
     color: white;
     font-size: 30px;
 
 }
-.title-form1,.title-form2,.title-form3{
-padding: 8px 0 8px 0;
+
+.title-form1, .title-form2, .title-form3 {
+    padding: 8px 0 8px 0;
     color: black;
-    font-family:sans-serif;
+    font-family: sans-serif;
     font-weight: bold;
 }
-.form1{
+
+.form1 {
     margin-top: -10px;
 }
-input[type='password']{
+
+input[type='password'] {
     font-size: 10px;
     font-weight: bold;
     width: 330px;
@@ -312,27 +332,30 @@ input[type='password']{
     -webkit-box-shadow: 6px 15px 15px -7px #000000;
     box-shadow: 6px 7px 10px -7px #000000;
 }
-input[type=password]:focus{
+
+input[type=password]:focus {
     border-right: 10px;
     border: 1px solid black;
     background: gainsboro;
 }
 
- .sub-1{
+.sub-1 {
     border-radius: 10px;
-    border: 1px #2785f7 solid ;
+    border: 1px #2785f7 solid;
     width: 100px;
     height: 33px;
     background: #2785f7;
     color: white;
-    outline: none  ;
+    outline: none;
     margin: 15px 0 0 240px;
 }
-.bootom-wrap{
+
+.bootom-wrap {
     display: flex;
     justify-content: space-around;
 }
-.bootom-forms{
+
+.bootom-forms {
     font-size: 10px;
     font-weight: bold;
     width: 210px;
@@ -345,26 +368,29 @@ input[type=password]:focus{
     -webkit-box-shadow: 6px 15px 15px -7px #000000;
     box-shadow: 6px 7px 10px -7px #000000;
 }
-textarea{
+
+textarea {
     resize: none;
     font-size: 10px;
-    font-family:sans-serif;
+    font-family: sans-serif;
     font-weight: bold;
     border: 1px darkgrey solid;
     border-radius: 10px;
     outline: none;
     transition: .5s;
-    padding:5px 0 0 5px;
+    padding: 5px 0 0 5px;
     -webkit-box-shadow: 6px 15px 15px -7px #000000;
     box-shadow: 6px 7px 10px -7px #000000;
 }
-.body-wrap{
+
+.body-wrap {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 5px;
 }
-.one-row{
+
+.one-row {
     width: 460px;
     height: 30px;
     font-size: 10px;
@@ -378,14 +404,14 @@ textarea{
     box-shadow: 6px 7px 10px -7px #000000;
 }
 
-.sub-2{
+.sub-2 {
     border-radius: 10px;
-    border: 1px #2785f7 solid ;
+    border: 1px #2785f7 solid;
     width: 100px;
     height: 33px;
     background: #2785f7;
     color: white;
-    outline: none  ;
+    outline: none;
     margin: 15px 0 0 380px;
 }
 

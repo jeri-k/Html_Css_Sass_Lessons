@@ -153,7 +153,6 @@ body {
 }
 
 
-
 .icons {
     width: 50%;
     height: 40px;
@@ -184,15 +183,17 @@ a.icons::after {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-a.txtP::after{
-    content:'Projeck';
+
+a.txtP::after {
+    content: 'Projeck';
     display: flex;
     align-items: center;
     font-size: 17px;
     opacity: 0;
     transition: 0.7s;
 }
-a.txtA::after{
+
+a.txtA::after {
     content: 'Account';
     display: flex;
     align-items: center;
@@ -203,7 +204,7 @@ a.txtA::after{
 
 }
 
-a.txtG::after{
+a.txtG::after {
     content: 'Groups';
     display: flex;
     align-items: center;
@@ -211,7 +212,8 @@ a.txtG::after{
     opacity: 0;
     transition: 0.7s;
 }
-a.txtC::after{
+
+a.txtC::after {
     content: 'Cloud';
     display: flex;
     align-items: center;
@@ -219,7 +221,8 @@ a.txtC::after{
     opacity: 0;
     transition: 0.7s;
 }
-a.txtS::after{
+
+a.txtS::after {
     content: 'Setting';
     display: flex;
     align-items: center;
@@ -249,6 +252,7 @@ a.icons:hover::after {
     background: #2785f7;
     border-radius: 10px;
 }
+
 .active-bar i {
     color: white;
 }

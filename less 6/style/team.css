@@ -2,134 +2,149 @@
 @import url(./fonts.css);
 
 body {
-  font-family: "Banhij-Sultannahia";
+    font-family: "Banhij-Sultannahia";
 }
 
 #conteiner {
-  width: 1440px;
-  height: 600px;
-  background: white;
+    width: 1440px;
+    height: 600px;
+    background: white;
 }
+
 .menu {
-  width: 450px;
-  height: 44px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 40px auto 0;
+    width: 450px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px auto 0;
 }
+
 .nav-menu {
-  text-decoration: none;
-  font-family: "Banhij-Sultannahia";
-  font-size: 24px;
-  line-height: 33px;
-  color: black;
-  transition: 0.7s;
+    text-decoration: none;
+    font-family: "Banhij-Sultannahia";
+    font-size: 24px;
+    line-height: 33px;
+    color: black;
+    transition: 0.7s;
 }
+
 .nav-menu:hover {
-  color: #2785f7;
+    color: #2785f7;
 }
+
 .active {
-  color: #2785f7;
+    color: #2785f7;
 }
+
 .content-block {
-  width: 1050px;
-  height: 480px;
-  border-radius: 30px;
-  margin: 0 auto;
-  padding: 20px;
-  background: silver;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    width: 1050px;
+    height: 480px;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 20px;
+    background: silver;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .big-wrap {
-  width: 907px;
-  height: 430px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
+    width: 907px;
+    height: 430px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
+
 .block {
-  height: 180px;
-  width: 200px;
-  background: white;
-  padding: 10px;
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  text-align: center;
-  border-radius: 15px;
-  transition-duration: .7s;
+    height: 180px;
+    width: 200px;
+    background: white;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 15px;
+    transition-duration: .7s;
 }
-.block::after{
-content: url('../images /trash-alt2.svg');
-  color: red;
-  display: block;
-  position: absolute;
-  top: -15px;
-  left: 183px;
-  width: 25px;
-  height: 25px;
-  visibility: hidden;
+
+.block::after {
+    content: url('../images /trash-alt2.svg');
+    color: red;
+    display: block;
+    position: absolute;
+    top: -15px;
+    left: 183px;
+    width: 25px;
+    height: 25px;
+    visibility: hidden;
 
 }
-.block::before{
-  content: '';
-  display: block;
-  position: absolute;
-  background: white;
-  top: -20px;
-  left: 175px;
-  width: 40px;
-  height: 40px;
-  border-radius: 10px;
-  visibility: hidden;
+
+.block::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background: white;
+    top: -20px;
+    left: 175px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    visibility: hidden;
 
 }
 
 img {
-  border-radius: 80px;
-  width: 60px;
-  margin-top: 5px;
+    border-radius: 80px;
+    width: 60px;
+    margin-top: 5px;
 }
-.block-content {
-  flex: 2;
-  margin-top: 10px;
-}
-.block-content h1 {
-  color: black;
-  font-size: 20px;
-}
-.two-row {
-  color: #b1b1b1;
-  font-size: 15px;
-  font-family: "ChronicaPro-Regular";
 
-  font-weight: 100;
+.block-content {
+    flex: 2;
+    margin-top: 10px;
 }
+
+.block-content h1 {
+    color: black;
+    font-size: 20px;
+}
+
+.two-row {
+    color: #b1b1b1;
+    font-size: 15px;
+    font-family: "ChronicaPro-Regular";
+
+    font-weight: 100;
+}
+
 .date {
-  font-size: 12px;
-  color: #b1b1b1;
-  font-family: "ChronicaPro-Regular";
+    font-size: 12px;
+    color: #b1b1b1;
+    font-family: "ChronicaPro-Regular";
 }
 
 .block:hover p {
-  color: white;
+    color: white;
 }
-.block:hover .block-content h1 {
-  color: white;
-}
-.block:hover {
-  background-color: #2785f7;
-  cursor: pointer;
-}
-.block:hover::before,.block:hover::after{
 
-  visibility: visible;
+.block:hover .block-content h1 {
+    color: white;
+}
+
+.block:hover {
+    background-color: #2785f7;
+    cursor: pointer;
+}
+
+.block:hover::before, .block:hover::after {
+
+    visibility: visible;
 }
 
 
