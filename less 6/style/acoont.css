@@ -253,7 +253,7 @@ i {
     font-family: serif;
     font-size: 25px;
     margin-left: 15px;
-    
+
 }
 
 .text-content {
@@ -335,8 +335,7 @@ input[type='password'] {
 
 input[type=password]:focus {
     border-right: 10px;
-    border: 1px solid black;
-    background: gainsboro;
+    border: 1px solid #2785f7;
 }
 
 .sub-1 {
@@ -402,6 +401,10 @@ textarea {
     padding-left: 5px;
     -webkit-box-shadow: 6px 15px 15px -7px #000000;
     box-shadow: 6px 7px 10px -7px #000000;
+}
+
+.one-row:focus, textarea:focus, .bootom-forms:focus {
+    border: 1px solid #2785f7;
 }
 
 .sub-2 {
