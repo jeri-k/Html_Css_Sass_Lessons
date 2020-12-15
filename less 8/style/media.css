@@ -1,0 +1,370 @@
+
+@media (max-width: 1240px) {
+    .two-big-img {
+        width: 1240px;
+
+    }
+
+    .one-img, .two-img {
+        width: 620px;
+        background-size: cover;
+
+    }
+
+    .big-container {
+        width: 941px;
+
+    }
+
+    .img-one-post, .img-two-post {
+        width: 455px;
+        height: 301px;
+    }
+
+    .one-post, .two-post {
+        width: 456px;
+        height: 552px;
+
+    }
+
+    .num-one-bottom {
+        width: 100%;
+    }
+
+    .title-box-cont, .txt-box-cont, .box-tex-cont {
+
+        width: 411px;
+    }
+
+    .three-news-content, .three-interviews-content, .three-post-content {
+        width: 941px;
+
+    }
+
+    .one-smoll-img, .two-smoll-img, .three-smoll-img,
+    .one-interviews-img, .two-interviews-img, .three-interviews-img,
+    .one-news-img, .two-news-img, .three-news-img {
+        width: 293px;
+        height: 194px;
+    }
+
+    .one-smoll-post, .two-smoll-post, .three-smoll-post, .one-interviews-post, .two-interviews-post, .three-interviews-post {
+        width: 293px;
+        height: 306px;
+
+    }
+
+    .one-img-title-post, .two-img-title-post {
+        width: 469.59px;
+        height: 360px;
+
+    }
+
+    .two-title-post {
+        width: 100%;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+    .big-container {
+        width: 720px;
+        height: 2300px;
+        margin-top: 10px;
+    }
+
+    .two-big-img {
+        width: 768px;
+        height: 354px;
+    }
+
+    .one-img, .two-img {
+        width: 383px;
+        height: 354px;
+        background-size: cover;
+    }
+
+    .box-tex-cont {
+        width: 343px;
+        height: 210px;
+        margin: 72px 0 0 22px;
+    }
+
+    .bt-title {
+        width: 198px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .txt-box-cont {
+        font-size: 12px;
+        margin-top: 10px;
+        width: 343px;
+        height: 54px;
+    }
+
+    .title-box-cont {
+        font-size: 18px;
+        margin-top: -30px;
+    }
+
+    .deco-line {
+        display: none;
+    }
+
+    .deco-lineB {
+        font-size: 12px;
+    }
+
+    .space {
+        font-size: 12px;
+    }
+
+    .two-post-content {
+        width: 720px;
+        height: 420.6px;
+    }
+
+    .one-post, .two-post {
+        width: 345px;
+        height: 421px;
+
+    }
+
+    .img-one-post, .img-two-post {
+        width: 345px;
+        height: 228px;
+        background-size: cover;
+
+    }
+
+    .title-text, .title-text-def {
+        font-size: 18px;
+    }
+
+    .text-cont {
+        font-size: 14px;
+    }
+
+    .three-news-content, .three-interviews-content, .three-post-content {
+        width: 720px;
+        height: 247px;
+    }
+
+    .one-smoll-post, .two-smoll-post, .three-smoll-post, .one-interviews-post, .two-interviews-post, .three-interviews-post {
+        width: 220px;
+        height: 247px;
+    }
+
+    .one-smoll-img, .two-smoll-img, .three-smoll-img,
+    .one-interviews-img, .two-interviews-img, .three-interviews-img,
+    .one-news-img, .two-news-img, .three-news-img {
+        width: 220px;
+        height: 145px;
+        background-size: cover;
+
+    }
+
+    .text-bootom-post {
+        font-size: 16px;
+
+    }
+
+    .one-img-title-post, .two-img-title-post {
+        width: 359px;
+        height: 275px;
+
+
+    }
+
+    .two-title-post {
+        width: 100%;
+
+    }
+
+    .data-year {
+        width: 200px;
+        font-size: 18px;
+        margin-top: 90px;
+        padding: 9px;
+        margin-left: 140px;
+    }
+
+    .box-txt-black {
+        width: 359px;
+
+    }
+
+    .num-one-bottom {
+        width: 100%;
+
+    }
+
+    footer {
+        width: 100%;
+
+    }
+
+    header {
+        width: 100%;
+    }
+
+
+
+    .title-box-cont, .txt-box-cont, .box-tex-cont {
+
+        width: 343px;
+    }
+
+    .menu-box {
+        margin-left: 10px;
+    }
+
+    .menu-btn {
+        left: 20px;
+    }
+
+}
+@media (max-width: 320px) {
+
+    .big-container{
+        width: 320px;
+        height: 4400px;
+    }
+    .two-big-img{
+        width: 320px;
+        height: 541px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+
+    }
+    .one-img{
+        width: 320px;
+        height: 294px;
+
+    }
+    .two-img{
+        width: 320px;
+        height: 246px;
+    }
+    .box-tex-cont{
+        margin-top: 5px;
+        width: 300px;
+        height: 230px;
+        margin-left: 10px;
+
+    }
+    .bt-title{
+        width: 198px;
+        height: 40px;
+    }
+    .bottom-box-cont{
+        margin-top: 20px;
+    }
+    .txt-box-cont{
+        width: 295px;
+        height: 54px;
+    }
+    .menu-box {
+        left: 0;
+        width: 300px;
+    }
+
+    .menu-btn {
+        left: 5px;
+    }
+    .title-ha,.title-ha2,.title-ha3{
+        margin-left: 10px;
+    }
+    .two-post-content {
+        display: flex;
+        flex-wrap: wrap;
+        width: 295px;
+        height: 789px;
+        margin:  0 auto 20px auto;
+
+    }
+
+    .one-post, .two-post {
+        width: 295px;
+        height: 383px;
+
+    }
+    .two-post{
+        margin: 10px 0 0 0;
+    }
+
+
+    .img-one-post, .img-two-post {
+        width: 295px;
+        height: 195px;
+        background-size: cover;
+
+    }
+    .three-news-content, .three-interviews-content, .three-post-content {
+        width: 295px;
+        height: 856px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .two-title-post {
+        margin: 0 auto;
+        width: 320px;
+        height: 420.60px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .title-box-cont{
+        width: 295px;
+        height: 25px;
+
+    }
+    .data-year{
+        width: 177px;
+        height: 27px;
+        text-align: left;
+        padding: 0;
+        margin: 40px 0 0 0;
+    }
+    .one-img-title-post{
+        width: 320px;
+        height: 245px;
+        background-size: cover;
+    }
+    .two-img-title-post{
+        margin: -3px 0 0 0 ;
+        padding: 0;
+        width: 319.72px;
+        height: 174.52px;
+    }
+    .box-txt-black{
+        width: 319.72px;
+        height: 174.52px;
+        margin: 0 0 0 0;
+
+    }
+
+    .title-text,.title-text-def{
+        margin: -20px 0 0 0 ;
+        line-height: 27px;
+
+    }
+    .text-cont{
+        line-height: 21px;
+        margin: 20px 0 0 0 ;
+
+    }
+    .baton-blak{
+        font-size: 14px;
+    }
+    .num-one-bottom{
+        margin: 0 0 80px 0 ;
+    }
+
+}
