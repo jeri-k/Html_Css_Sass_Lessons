@@ -1,0 +1,116 @@
+@import "reset.css";
+@import "fonts.css";
+
+$color-white: #fff;
+
+@mixin flex($val,$pos ) {
+  display: $val;
+  justify-content: $pos;
+  align-items: $pos;
+}
+
+@mixin width($size1,$size2) {
+  width: $size1;
+  height: $size2;
+}
+
+%size-box {
+  width: 90px;
+  height: 100%;
+  background: rgb(101, 184, 211);
+}
+
+body {
+  background: rgb(233, 97, 77);
+
+}
+
+
+.block {
+  @include width(100%, 200px);
+  display: flex;
+  background: rgb(82, 161, 189);
+  margin-top: 200px;
+
+  .block__box {
+    @include width(90px, 200px);
+    position: relative;
+    transition-duration: 0.6s;
+    border-right: rgb(82, 161, 189) 1px solid;
+    overflow: hidden;
+
+
+
+    .block__title {
+      @extend %size-box;
+      @include flex(flex, center);
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: .3s;
+      overflow: hidden;
+
+
+      a.block__icon {
+        i {
+          color: $color-white;
+          font-size: 30px;
+        }
+      }
+
+      .block__content {
+        @include flex(flex, center);
+        position: absolute;
+        visibility: hidden;
+        right: 0;
+        @include width(1px, 200px);
+        transition: .6s;
+
+        > i {
+          position: absolute;
+          font-size: 50px;
+          opacity: 0;
+          transition: .4s;
+          color: $color-white;
+        }
+      }
+    }
+
+    &:hover .block__content {
+      visibility: visible;
+      width: 90px;
+
+      > i {
+        opacity: 1;
+      }
+    }
+
+    &:hover {
+
+      width: 500px;
+      background: $color-white;
+    }
+
+    .block__txt {
+      @include width(350px, 100px);
+      margin: 50px 110px;
+      transition: .6s;
+
+      > h1 {
+        font-size: 30px;
+        font-family: 'Poppins-Medium';
+        padding: 5px;
+      }
+
+      > p {
+        line-height: 1.5;
+        font-family: 'Poppins-Regular';
+        font-size: 14px;
+
+      }
+    }
+  }
+}
+
+
+
